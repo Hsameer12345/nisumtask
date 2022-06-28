@@ -18,8 +18,7 @@ interface Calculatearea{
 
      }
 
-
- }
+}
  class Triangle implements Calculatearea{
     double height;
     double width;
