@@ -7,9 +7,12 @@ public class Stringconcept {
         String b =  "sameer";
         String c = new String("sameer");
         String d = new String("sameer");
-        System.out.println(a==b);
+        c = c.concat(" khan");
+        System.out.println(a.equals(b));
         System.out.println(d==a);
-        System.out.println(c==d);
-        System.out.println(c==c);
+        System.out.println(c.equals(b));
+        System.out.println(c==b);
+        System.out.println(c);
+
     }
 }
