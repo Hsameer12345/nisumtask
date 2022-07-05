@@ -8,8 +8,17 @@ public class Capitalized {
         Scanner scanner = new Scanner(System.in);
 
         String input =  scanner.next();
+        String firstltr = input.substring(0,1);
+        String ltr = input.substring(1);
 
-        System.out.println(input.toUpperCase());
+        firstltr = firstltr.toUpperCase();
+
+        String capitalizeFirstLetter = firstltr + ltr;
+
+
+        System.out.println(capitalizeFirstLetter);
+
+
 
     }
 }
